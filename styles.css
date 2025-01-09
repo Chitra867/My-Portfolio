@@ -11,8 +11,8 @@ a{
 }
 :root{
     --primaryColor: #6e64c6;
-    --darkColor : #3bedd5;
-    --lightColor : #2be660;
+    --darkColor : #a69535;
+    --lightColor : gold;
 }
 nav{
     background-color: var(--primaryColor);
@@ -24,6 +24,7 @@ nav{
 }
 nav ul{
     width: 25%;
+
     display: flex;
     font-size: 2rem;
     justify-content: space-evenly;
@@ -32,7 +33,7 @@ nav ul{
 }
 
 nav ul li{
-    color: var(--textColor);
+    color: var(--lightColor);
 }
    
 nav ul li:hover{
@@ -72,6 +73,9 @@ nav h1 span{
    
     height: 100%;
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 
 }
@@ -92,15 +96,16 @@ nav h1 span{
 }
 .socialmedia img{
     height: 2rem;
-   /* border-radius: 50%; */
-   padding-left: 1.7rem;
+   border-radius: 50%;
+   margin-left: 1.5rem;
+   /* padding-left: 1.7rem; */
 
 }
 .socialmedianames{
     width: 10rem;
     display: flex;
     justify-content: space-evenly;
-    margin-top: -1.5rem;
+    margin-top: -1rem;
     
 }
 .socialmedianames p{
@@ -123,17 +128,42 @@ nav h1 span{
    grid-template-columns: repeat(3, 1fr);
    gap: 1rem;
    
+   
 
 }
 .services div{
     height: 20rem;
-    border: 1px solid var(--darkColor);
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #457b9d;
+    line-height: 2rem;
+    border-radius: 25% 10%;
 }
 .services div img{
     width: 6rem;
     height: 6rem;
+    border-radius: 50%;
+}
+.services div h3{
+    color: var(--lightColor);
+}
+.services div p{
+    font-size: .8rem;
+    padding: 2rem;
+    border-radius: 0 2rem;
+}
+.outsideservices{
+    color: var(--lightColor);
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
+.services div:hover{
+    cursor: pointer;
+    background-color: #7d76c2 ;
 }
