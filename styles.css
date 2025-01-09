@@ -49,7 +49,7 @@ nav h1{
 }
 nav h1 span{
     font-size: 2.5rem;
-    color: var(--darkColor);
+    color: var(--lightColor);
 }
 .hero{
     height: 92vh;
